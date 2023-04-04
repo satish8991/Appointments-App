@@ -1,0 +1,29 @@
+.item-conotainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  flex-direction: column;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin: 10px;
+}
+.designation {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.design {
+  font-weight: bold;
+}
+.favourite-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.date {
+  color: #b5b7c4;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 20px;
+}
